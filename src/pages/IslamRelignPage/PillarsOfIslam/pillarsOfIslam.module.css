@@ -1,0 +1,39 @@
+.pillars {
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* filter: brightness(80%); */
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.378) 0 100%),
+    url("../../../Images/IslamPage/Subtraction 4.png");
+}
+.title {
+  font-family: Cinzel Decorative;
+  padding-top: 8rem;
+  color: #f5f9fc;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  margin-top: 6rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon img {
+  width: 100%;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.icon img:hover {
+  transform: scale(1.1);
+}
+.text {
+  color: white;
+  font-family: poppins;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+}

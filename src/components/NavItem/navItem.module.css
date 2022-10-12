@@ -1,0 +1,19 @@
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin: 1rem 0;
+  font-weight: 700;
+  text-decoration: none;
+}
+.link:hover {
+  color: #1da599;
+  transition: all 0.2s;
+  transform: scale(1.5);
+}
+/* @media (max-width: 1428px) {
+  .link {
+    color: black;
+    margin: 1rem 0;
+  }
+} */

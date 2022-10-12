@@ -1,0 +1,76 @@
+.sliderPage {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-around;
+}
+.slider {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  justify-content: space-around;
+}
+
+.img6 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(../../Images/heroSlider/img1.png);
+}
+
+.img6 {
+  text-align: center;
+  width: 100vw;
+  z-index: -1;
+  padding-top: 10%;
+  box-sizing: border-box;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 2rem;
+  margin: 2rem;
+  margin-top: -10%;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.btnChild {
+  transform: scale(3);
+  color: white;
+}
+.btnChild:active {
+  transform: scale(4);
+  transition: all 0.1s;
+}
+.content {
+  width: 40%;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+.content h2 {
+  font-family: Cinzel Decorative;
+  color: white;
+  font-size: 34px;
+}
+.content p {
+  color: white;
+  margin: 2rem 0;
+}
+.btn2 {
+  padding: 0.5rem 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  cursor: pointer;
+  user-select: none;
+}

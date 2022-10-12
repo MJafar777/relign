@@ -1,0 +1,22 @@
+.religion {
+  width: 100%;
+  padding: 4rem 0;
+  margin: 2rem 0;
+  background-color: #f0f0f0;
+}
+.grids {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  justify-content: space-around;
+}
+.grids div p {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 16px;
+}
+.grids div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.4s;
+}

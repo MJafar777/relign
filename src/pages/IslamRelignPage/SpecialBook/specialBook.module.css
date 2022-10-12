@@ -1,0 +1,35 @@
+.specialBook {
+  margin: 4rem 0;
+  background-image: url("../../../Images//IslamPage//backGround.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-family: cinzel decorative;
+  letter-spacing: 0.3rem;
+  padding-top: 4rem;
+}
+.big {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.book {
+  border-radius: 50%;
+  width: 80%;
+  margin-top: 2rem;
+}
+.text1 {
+  color: white;
+}
+.text2 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+}

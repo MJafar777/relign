@@ -1,0 +1,33 @@
+.pattern {
+  /* position: relative; */
+  height: 100%;
+}
+.background {
+  position: relative;
+  padding: 40px 0;
+}
+
+.mainPart {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+  position: relative;
+}
+.imageSide {
+  height: 100%;
+}
+.img1 {
+  width: 80%;
+  height: 80%;
+}
+
+.mainTitle {
+  font-size: 3rem;
+  color: #555;
+}
+
+.mainPartLeft {
+  top: 0;
+  position: absolute;
+}

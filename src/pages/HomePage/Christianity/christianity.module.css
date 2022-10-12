@@ -1,0 +1,15 @@
+.xristian {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 100%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(../../../Images/Christianity/Intersection\ 1.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+  color: #f0f0f0;
+  font-size: 18px;
+  line-height: 1.5;
+}

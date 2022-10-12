@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navHeader {
+  position: absolute;
+  z-index: 10;
+}
+/* ------------------Navbar and burger menu ----------------*/
+
+nav {
+  width: 5%;
+  height: 5em;
+  position: sticky;
+  /* background-color: rgba(37, 39, 53, 0.131); */
+  display: flex;
+  z-index: 200;
+  justify-content: flex-start;
+  padding: 1em;
+}
+.burgerMenu {
+  height: 100%;
+  margin: auto 0;
+  width: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* background-color: red; */
+  cursor: pointer;
+}
+.titleMenu {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 4rem;
+  font-size: 18px;
+  margin: 2rem 4rem;
+}

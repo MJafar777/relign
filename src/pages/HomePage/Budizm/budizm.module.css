@@ -1,0 +1,19 @@
+.background {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 32px;
+  padding: 40px 0;
+}
+.title {
+  text-align: center;
+}
+.Budizm {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 40px;
+}
+
+.left img {
+  width: 100%;
+  border-radius: 5px;
+}

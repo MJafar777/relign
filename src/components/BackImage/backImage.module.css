@@ -1,0 +1,12 @@
+.backImage2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.backImage1 img {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

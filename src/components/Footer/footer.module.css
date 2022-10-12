@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--opacity-primary);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 50px 0px;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+
+.product {
+  background-color: var(--color-primary);
+  padding: 20px 0;
+}
+
+.producted {
+  color: white;
+  font-size: 16px;
+}
